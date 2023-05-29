@@ -4,13 +4,6 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-// let gallery = new simpleLightbox('.gallery a', {
-//   widthRatio: 0.8,
-//   heightRatio: 0.8,
-//   animationSpeed: 250,
-//   // scaleImageToRatio: true,
-// });
-
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
